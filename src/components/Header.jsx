@@ -5,6 +5,7 @@ const Header = () => {
   return (
     <div className=" flex justify-center my-4">
       <span className="text-2xl font-bold">HOOK</span>
+
       <div className=" border border-slate-300 rounded-2xl p-2 mx-8 w-2/3 inline justify-center">
         <input
           className="w-2/3 pl-2"
@@ -21,6 +22,7 @@ const Header = () => {
           </button>
         </div>
       </div>
+
       <button className="border rounded-3xl bg-teal-300 py-2 px-4">
         Post Ads
       </button>
