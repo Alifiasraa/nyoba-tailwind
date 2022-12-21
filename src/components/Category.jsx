@@ -2,10 +2,61 @@ import React from "react";
 
 function Category() {
   return (
-    <div className="bg-slate-300">
-      <h1>Featured Categories</h1>
+    <div className="bg-slate-100">
+      <h1 className="pt-14 pb-12 font-bold text-3xl text-center">
+        Featured Categories
+      </h1>
+      <div className="flex flex-row justify-center gap-10">
+        <div className="bg-[url('../public/category/category-1.jpg')] h-96 w-96 bg-contain border-8 border-white rounded-3xl overflow-hidden relative">
+          <p className="border border-none rounded-full py-2 px-5 m-3 max-w-1/2 text-center font-bold text-white bg-violet-500 absolute right-0">
+            Popular
+          </p>
+          <div className="flex justify-center">
+            <div className="w-5/6 h-16 border rounded-xl bg-white absolute bottom-3 flex flex-row p-1 divide-x divide-slate-300">
+              <div className="basis-3/5 m-auto ml-3 font-extrabold">
+                <p>Latest Jobs</p>
+              </div>
+              <div className="basis-2/5 m-auto ml-3 text-slate-400">
+                <p>10.000 Ads</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-[url('../public/category/category-1.jpg')] h-96 w-96 bg-contain border-8 border-white rounded-3xl overflow-hidden relative">
+          <p className="border border-none rounded-full py-2 px-5 m-3 max-w-1/2 text-center font-bold text-white bg-violet-500 absolute right-0">
+            Best Selling
+          </p>
+          <div className="flex justify-center">
+            <div className="w-5/6 h-16 border rounded-xl bg-white absolute bottom-3 flex flex-row p-1 divide-x divide-slate-300">
+              <div className="basis-3/5 m-auto ml-3 font-extrabold">
+                <p>Automobiles</p>
+              </div>
+              <div className="basis-2/5 m-auto ml-3 text-slate-400">
+                <p>20.000 Ads</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-[url('../public/category/category-1.jpg')] h-96 w-96 bg-contain border-8 border-white rounded-3xl overflow-hidden relative">
+          <p className="border border-none rounded-full py-2 px-5 m-3 max-w-1/2 text-center font-bold text-white bg-violet-500 absolute right-0">
+            Popular
+          </p>
+          <div className="flex justify-center">
+            <div className="w-5/6 h-16 border rounded-xl bg-white absolute bottom-3 flex flex-row p-1 divide-x divide-slate-300">
+              <div className="basis-3/5 m-auto ml-3 font-extrabold">
+                <p>Real Estate</p>
+              </div>
+              <div className="basis-2/5 m-auto ml-3 text-slate-400">
+                <p>60.000 Ads</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
 
-export default Category();
+export default Category;

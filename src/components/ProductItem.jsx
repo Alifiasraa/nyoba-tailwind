@@ -12,4 +12,4 @@ function ProductItem({ name, total }) {
   );
 }
 
-export default ProductItem();
+export default ProductItem;
