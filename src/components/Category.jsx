@@ -7,7 +7,7 @@ function Category() {
         Featured Categories
       </h1>
       <div className="flex flex-row justify-center gap-10">
-        <div className="bg-[url('../public/category/category-1.jpg')] h-96 w-96 bg-contain border-8 border-white rounded-3xl overflow-hidden relative">
+        <div className="bg-[url('../public/category/category-1.jpg')] card-category">
           <p className="border border-none rounded-full py-2 px-5 m-3 max-w-1/2 text-center font-bold text-white bg-violet-500 absolute right-0">
             Popular
           </p>
@@ -17,14 +17,14 @@ function Category() {
                 <p>Latest Jobs</p>
               </div>
               <div className="basis-2/5 m-auto ml-3 text-slate-400">
-                <p>10.000 Ads</p>
+                <p className="text-center">10.000 Ads</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="bg-[url('../public/category/category-2.jpg')] h-96 w-96 bg-contain border-8 border-white rounded-3xl overflow-hidden relative">
-          <p className="border border-none rounded-full py-2 px-5 m-3 max-w-1/2 text-center font-bold text-white bg-violet-500 absolute right-0">
+        <div className="bg-[url('../public/category/category-2.jpg')] card-category">
+          <p className="border border-none rounded-full py-2 px-5 m-3 max-w-1/2 text-center font-bold text-white bg-indigo-500 absolute right-0">
             Best Selling
           </p>
           <div className="flex justify-center">
@@ -33,13 +33,13 @@ function Category() {
                 <p>Automobiles</p>
               </div>
               <div className="basis-2/5 m-auto ml-3 text-slate-400">
-                <p>20.000 Ads</p>
+                <p className="text-center">20.000 Ads</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="bg-[url('../public/category/category-3.jpg')] h-96 w-96 bg-contain border-8 border-white rounded-3xl overflow-hidden relative">
+        <div className="bg-[url('../public/category/category-3.jpg')] card-category">
           <p className="border border-none rounded-full py-2 px-5 m-3 max-w-1/2 text-center font-bold text-white bg-violet-500 absolute right-0">
             Popular
           </p>
@@ -49,7 +49,7 @@ function Category() {
                 <p>Real Estate</p>
               </div>
               <div className="basis-2/5 m-auto ml-3 text-slate-400">
-                <p>60.000 Ads</p>
+                <p className="text-center">60.000 Ads</p>
               </div>
             </div>
           </div>

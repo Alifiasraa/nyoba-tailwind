@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .card-category {
+    @apply h-96 w-96 bg-cover bg-center border-8 border-white rounded-3xl overflow-hidden relative;
+  }
+}
