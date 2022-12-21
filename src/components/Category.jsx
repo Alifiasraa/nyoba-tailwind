@@ -6,6 +6,7 @@ function Category() {
       <h1 className="pb-12 font-bold text-3xl text-center">
         Featured Categories
       </h1>
+
       <div className="flex flex-row justify-center gap-10">
         <div className="bg-[url('../public/category/category-1.jpg')] card-category">
           <p className="border border-none rounded-full py-2 px-5 m-3 max-w-1/2 text-center font-bold text-white bg-violet-500 absolute right-0">
@@ -55,6 +56,7 @@ function Category() {
           </div>
         </div>
       </div>
+
       <button className="border border-none rounded-3xl bg-fuchsia-400 text-white py-2 px-6 mt-9 w-1/6 mx-auto">
         View all Categories
       </button>

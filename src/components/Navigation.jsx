@@ -3,7 +3,7 @@ import { GoTriangleDown } from "react-icons/go";
 
 function Navigation() {
   return (
-    <div className=" flex flex-row inline bg-indigo-800 py-5 justify-center gap-x-20">
+    <div className=" flex flex-row inline bg-[#361C90] py-5 justify-center gap-x-20">
       <div className="flex flex-row">
         <p className="text-white text-sm">EN</p>
         <span className="text-white ml-1 self-center">
