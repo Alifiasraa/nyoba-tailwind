@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 import ProductList from "./components/ProductList";
 import Category from "./components/Category";
 
-import "./app.css";
+import "./App.css";
 
 function App() {
   return (

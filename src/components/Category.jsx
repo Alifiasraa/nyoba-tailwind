@@ -2,8 +2,8 @@ import React from "react";
 
 function Category() {
   return (
-    <div className="bg-slate-100">
-      <h1 className="pt-14 pb-12 font-bold text-3xl text-center">
+    <div className="bg-slate-100 flex flex-col py-14">
+      <h1 className="pb-12 font-bold text-3xl text-center">
         Featured Categories
       </h1>
       <div className="flex flex-row justify-center gap-10">
@@ -23,7 +23,7 @@ function Category() {
           </div>
         </div>
 
-        <div className="bg-[url('../public/category/category-1.jpg')] h-96 w-96 bg-contain border-8 border-white rounded-3xl overflow-hidden relative">
+        <div className="bg-[url('../public/category/category-2.jpg')] h-96 w-96 bg-contain border-8 border-white rounded-3xl overflow-hidden relative">
           <p className="border border-none rounded-full py-2 px-5 m-3 max-w-1/2 text-center font-bold text-white bg-violet-500 absolute right-0">
             Best Selling
           </p>
@@ -39,7 +39,7 @@ function Category() {
           </div>
         </div>
 
-        <div className="bg-[url('../public/category/category-1.jpg')] h-96 w-96 bg-contain border-8 border-white rounded-3xl overflow-hidden relative">
+        <div className="bg-[url('../public/category/category-3.jpg')] h-96 w-96 bg-contain border-8 border-white rounded-3xl overflow-hidden relative">
           <p className="border border-none rounded-full py-2 px-5 m-3 max-w-1/2 text-center font-bold text-white bg-violet-500 absolute right-0">
             Popular
           </p>
@@ -55,6 +55,9 @@ function Category() {
           </div>
         </div>
       </div>
+      <button className="border border-none rounded-3xl bg-fuchsia-400 text-white py-2 px-6 mt-9 w-1/6 mx-auto">
+        View all Categories
+      </button>
     </div>
   );
 }
