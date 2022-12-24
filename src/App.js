@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import ProductList from "./components/ProductList";
 import Category from "./components/Category";
 import Statistic from "./components/Statistic";
+import Location from "./components/Location";
 
 import "./App.css";
 
@@ -17,6 +18,7 @@ function App() {
       <ProductList />
       <Category />
       <Statistic />
+      <Location />
     </div>
   );
 }

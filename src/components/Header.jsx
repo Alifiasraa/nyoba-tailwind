@@ -8,12 +8,12 @@ const Header = () => {
 
       <div className=" border border-slate-300 rounded-3xl p-2 mx-8 w-2/3 inline justify-center relative">
         <input
-          className="w-2/3 pl-2"
+          className="w-2/3 pl-2 focus:outline-none"
           placeholder="Type anything here..."
         ></input>
         <span>|</span>
         <input
-          className="pl-6 w-1/4"
+          className="pl-6 w-1/4 focus:outline-none"
           placeholder="Postal Code OR Location"
         ></input>
         <div className="border rounded-full inline w-8 h-8 bg-purple-600 absolute right-2 top-1 py-[2px] px-[4px] flex">

@@ -5,7 +5,7 @@ function ProductList() {
   return (
     <div className="flex justify-center py-20">
       <div className="w-5/6 grid justify-items-center">
-        <section className="grid grid-cols-4 gap-x-10 gap-y-8 w-full ">
+        <section className="grid grid-cols-4 content-center gap-x-10 gap-y-8 w-full ">
           {products.map((product) => (
             <ProductItem {...product} key={product.id} id={product.id} />
           ))}
