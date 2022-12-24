@@ -14,7 +14,7 @@ function Category() {
           </p>
           <div className="flex justify-center">
             <div className="w-5/6 h-16 border rounded-xl bg-white absolute bottom-3 flex flex-row p-1 divide-x divide-slate-300">
-              <div className="basis-3/5 m-auto ml-3 font-extrabold">
+              <div className="basis-3/5 m-auto ml-3 font-bold">
                 <p>Latest Jobs</p>
               </div>
               <div className="basis-2/5 m-auto ml-3 text-slate-400">
@@ -30,7 +30,7 @@ function Category() {
           </p>
           <div className="flex justify-center">
             <div className="w-5/6 h-16 border rounded-xl bg-white absolute bottom-3 flex flex-row p-1 divide-x divide-slate-300">
-              <div className="basis-3/5 m-auto ml-3 font-extrabold">
+              <div className="basis-3/5 m-auto ml-3 font-bold">
                 <p>Automobiles</p>
               </div>
               <div className="basis-2/5 m-auto ml-3 text-slate-400">
@@ -46,7 +46,7 @@ function Category() {
           </p>
           <div className="flex justify-center">
             <div className="w-5/6 h-16 border rounded-xl bg-white absolute bottom-3 flex flex-row p-1 divide-x divide-slate-300">
-              <div className="basis-3/5 m-auto ml-3 font-extrabold">
+              <div className="basis-3/5 m-auto ml-3 font-bold">
                 <p>Real Estate</p>
               </div>
               <div className="basis-2/5 m-auto ml-3 text-slate-400">
